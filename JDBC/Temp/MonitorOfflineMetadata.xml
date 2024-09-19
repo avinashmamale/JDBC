@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="4847bcbe-3f64-44bd-a20a-9d63a29a8a6f">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Business Process-1</Name>
+    <Flow>
+      <ID>1</ID>
+      <Name>Flow-1</Name>
+      <Step>
+        <ID>1</ID>
+        <Name>Data Mapper</Name>
+      </Step>
+      <Step>
+        <ID>2</ID>
+        <Name>NOP</Name>
+      </Step>
+      <Step>
+        <ID>4</ID>
+        <Name>Save Message</Name>
+      </Step>
+      <Trigger>
+        <ID>3</ID>
+        <Name>Scheduler Utility</Name>
+      </Trigger>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>

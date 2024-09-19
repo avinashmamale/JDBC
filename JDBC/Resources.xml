@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings type="resource">
+  <Resource_Element>
+    <Main_Resource_ID>901450598</Main_Resource_ID>
+    <Main_Resource_Name>JDBC</Main_Resource_Name>
+    <Default_Resource>JDBC_1</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>1</Resource_Type_ID>
+      <Resource_Type_Name>JDBC_1</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Local Agent</Name>
+        <ExpressionValue>'TRUE'LOG</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Library/Schema Name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>13</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>LA Name</Name>
+        <ExpressionValue>agent1</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>22</ID>
+        <Name>Filter Owner</Name>
+        <DisplaySequenceID>12</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>JDBC URL</Name>
+        <ExpressionValue>jdbc:sqlserver://IN-AVINASHMLPT1:1433;databaseName=TestDB</ExpressionValue>
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Database name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Starting Owner</Name>
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>RS_Type_HelpKey</Name>
+        <ExpressionValue>JDBC_Resource.htm</ExpressionValue>
+        <DisplaySequenceID>14</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>User</Name>
+        <ExpressionValue>sa</ExpressionValue>
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>Password</Name>
+        <ExpressionValue>gSa5io1BbRY=</ExpressionValue>
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>Use LA For Development</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>10000</Main_Resource_ID>
+    <Main_Resource_Name>Database</Main_Resource_Name>
+  </Resource_Element>
+</Resource_Settings>
